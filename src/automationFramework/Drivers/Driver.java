@@ -73,6 +73,8 @@ public class Driver {
 	   
 	   public void InitBrowser(WebBrowsers browserName)
        {
+		   String exePath = "C:\\Users\\valery.piniazik\\Documents\\KinopoiskAutomationJava\\resources\\chromedriver.exe";
+			System.setProperty("webdriver.chrome.driver", exePath);
            switch (browserName)
            {
                case Firefox:
