@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-05-28T08:24:42Z" name="Default suite" finished-at="2018-05-28T08:24:48Z" duration-ms="6640">
+  <suite started-at="2018-05-28T12:49:55Z" name="Default suite" finished-at="2018-05-28T12:50:04Z" duration-ms="9114">
     <groups>
     </groups>
-    <test started-at="2018-05-28T08:24:42Z" name="Default test" finished-at="2018-05-28T08:24:48Z" duration-ms="6640">
+    <test started-at="2018-05-28T12:49:55Z" name="Default test" finished-at="2018-05-28T12:50:04Z" duration-ms="9114">
       <class name="test.java.NewTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.java.NewTest@4f8969b0]" started-at="2018-05-28T08:24:42Z" name="beforeTest" finished-at="2018-05-28T08:24:45Z" duration-ms="3321" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.java.NewTest@1922e6d]" started-at="2018-05-28T12:49:55Z" name="beforeTest" finished-at="2018-05-28T12:49:58Z" duration-ms="3306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="TestUserCanGetExpectedResultOfSearch()[pri:0, instance:test.java.NewTest@4f8969b0]" started-at="2018-05-28T08:24:45Z" name="TestUserCanGetExpectedResultOfSearch" finished-at="2018-05-28T08:24:47Z" duration-ms="2511" status="PASS">
+        <test-method signature="TestUserCanGetExpectedResultOfSearch()[pri:0, instance:test.java.NewTest@1922e6d]" started-at="2018-05-28T12:49:58Z" name="TestUserCanGetExpectedResultOfSearch" finished-at="2018-05-28T12:50:01Z" duration-ms="2888" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestUserCanGetExpectedResultOfSearch -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.java.NewTest@4f8969b0]" started-at="2018-05-28T08:24:47Z" name="afterTest" finished-at="2018-05-28T08:24:48Z" duration-ms="790" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.java.NewTest@1922e6d]" started-at="2018-05-28T12:50:01Z" name="afterTest" finished-at="2018-05-28T12:50:04Z" duration-ms="2894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
