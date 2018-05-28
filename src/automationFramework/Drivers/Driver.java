@@ -20,7 +20,7 @@ public class Driver {
 		
 	public Driver(WebBrowsers browser)
 	{
-		this.browser=browser;	
+		this.browser=browser;
 		InitBrowser(this.browser);
 		BaseWindow=GetDriver().getWindowHandle();
 	}
@@ -73,8 +73,8 @@ public class Driver {
 	   
 	   public void InitBrowser(WebBrowsers browserName)
        {
-		   String exePath = "C:\\Users\\valery.piniazik\\Documents\\KinopoiskAutomationJava\\resources\\chromedriver.exe";
-			System.setProperty("webdriver.chrome.driver", exePath);
+		   	String exePath = "C:\\Users\\valery.piniazik\\Documents\\KinopoiskAutomationJava\\resources\\chromedriver.exe";
+			System.setProperty("webdriver.chrome.driver", exePath);			
            switch (browserName)
            {
                case Firefox:
@@ -86,7 +86,7 @@ public class Driver {
                    Drivers.put(driverKey, new InternetExplorerDriver());
                    break;
                case Chrome:
-                   driverKey= UUID.randomUUID();
+                   driverKey= UUID.randomUUID();                   
                    Drivers.put(driverKey, new ChromeDriver());
                    break;
                default:
