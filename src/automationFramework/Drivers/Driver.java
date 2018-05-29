@@ -73,7 +73,7 @@ public class Driver {
 	   
 	   public void InitBrowser(WebBrowsers browserName)
        {
-		   	String exePath = "./resources/chromedriver.exe";
+		   	String exePath = "./src/lib/chromedriver.exe";
 			System.setProperty("webdriver.chrome.driver", exePath);			
            switch (browserName)
            {
